@@ -15,7 +15,7 @@ public class DBConnection {
             con = DriverManager.getConnection(
                     "jdbc:mysql://localhost:3306/studentdb",
                     "root",
-                    "Lol@1234"); // change password
+                    "*****"); // change password
 
         } catch (Exception e) {
             e.printStackTrace();
